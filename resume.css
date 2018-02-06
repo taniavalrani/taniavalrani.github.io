@@ -1,0 +1,63 @@
+body{
+	background: black;
+	font-family: "Helvetica Neue";
+	font-size: 22px;
+	color: white;
+	width: 900px;
+    margin-top: 2%;
+    margin: auto;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 400px solid pink;
+  	border-image-source: url("background.jpg");
+  	border-image-slice: 120 10;
+  	border-image-repeat: repeat;
+  	border-width: 40px 40px 40px 40px;
+    text-align: left;
+    padding-left: 15px;
+   }
+
+.tab{
+  display:inline-block;
+  float: right;
+  font-style: italic;
+  color: #ffffb3;
+
+
+}
+.name_degree{
+  display:inline-block;
+  margin-right:10px;
+  font-weight:bold;
+  color: #E9CFEC;
+
+}
+.header{
+  text-align: center;
+  color:#C6DEFF;
+  letter-spacing: 5px;
+}
+
+a {
+  color: #bbff99;
+}
+a:visited {
+  text-align: center;
+    color: #bbff99;
+}
+#portfolio{
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+#name{
+  text-align: center;
+  color:#D3D3D3;
+  letter-spacing: 15px;
+}
+
+/* 1. align everything below a header left, plus border
+2. make all the headers a different colors
+3. bold the places i have worked
+4. figure out how to tab*/
