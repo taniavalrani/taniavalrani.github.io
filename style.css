@@ -5,16 +5,16 @@ body{
 	color: white;
 	text-align: center;
 	width: 900px;
-    margin-top: 5px;
-    margin: auto;
-    width: 85%;
+  margin-top: 5px;
+  margin: auto;
+  width: 85%;
 
 
-    border: 400px solid pink;
-  	border-image-source: url("background.jpg");
-  	border-image-slice: 120 10;
-  	border-image-repeat: repeat;
-  	border-width: 40px 40px 40px 40px;
+  border: 400px solid pink;
+	border-image-source: url("background.jpg");
+	border-image-slice: 120 10;
+	border-image-repeat: repeat;
+	border-width: 40px 40px 40px 40px;
    }
 
 #title{
@@ -23,3 +23,9 @@ body{
 
 }
 
+a{
+  color: #bbff99;
+}
+a:visited {
+  color: #bbff99;
+}
